@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+
+#p_body {
+
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    display: block;
+}
+.de_h2 {
+
+    position: relative;
+    top:30px;
+    width: 500px;
+    left: 700px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    height: 400px;
+}
+
+.de_h2 h2 {
+    line-height: 20px;
+    width: 500px;
+    position: relative;
+    font-size: 35px;
+    color: #080808;
+    line-height:normal;
+    margin: 0;
+    padding: 0 50px 50px 0;
+    word-break: keep-all;
+    height: 130px;
+    margin-top: 20px;
+}
+#border_1{
+    position: relative;
+    border-bottom: 1px solid black;
+    top:570px;
+    width:450px;
+    left: 700px;}
+    
+#border_2{
+    position: relative;
+    border-bottom: 1px solid black;
+    top:660px;
+    width:450px;
+    left: 700px;
+}
+    
+#border_3{
+    position: relative;
+    border-bottom: 1px solid black;
+    left: 200px;
+    top:880px;
+    width:1100px;
+    left: 30px;
+}
+#pri_t {
+    position: relative;
+    font-size: 45pt;
+    color: black;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    left: 210px;
+    top: 0;
+}
+#option {
+    position: relative;
+    top: 10px;
+    padding: 0 8px;
+    height: 30px;
+    color: #9d9d9d;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+select {
+    width: 440px;
+    height: 22px;
+    margin-top: 5px;
+
+    
+}
+
+.size_inform button {
+    position: relative;
+    top: -10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    left: 240px;
+    border: none;
+    font-weight: bold;
+    background: #ddd;
+    padding: 10px 13px;
+    width: 200px;
+}
+#totalprice{
+    position: relative;
+    top:0;
+    left:310px;
+}
+
+#totalprice strong{
+    position: relative;
+    margin-top: 20px;
+    font-size: small;
+}
+
+.total #zero{
+    position: relative;
+    left:120px;
+    top:-15px;
+}
+
+.buybutton {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    left:-15px;
+    top:-10px;
+    
+}
+
+.buy,.cart,.wish{
+    position: relative;
+     padding:  16px 37px;
+   
+
+}
+.buy {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    left: 10px;
+    border: 1px solid #ebe4e4ef;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+
+}
+
+.buy #btnbuy {
+    color: rgb(255, 255, 255);
+}
+
+
+.cart {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    left: 20px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ebe4e4ef
+}
+
+.cart #cart_s {
+    color: black;
+}
+
+
+.wish {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    left: 30px;
+    border: 1px solid #ebe4e4ef;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+}
+
+.wish #wish_s {
+    color: black;
+}
+
+
+
+#likeit{
+    position: relative;
+    top:110px;
+    left:-360px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#qnna{
+    position: relative;
+    font-weight: bold;
+    top:90px;
+    left:130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#ifo{
+    position: relative;
+    font-weight: bold;
+    top:91px;
+    left:330px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.toggle_section {
+    padding: 0 10px;
+    left: 10px;
+}
+
+.pho img{
+    position: relative;
+    width: 600px;
+    top:-400px;
+}
+
+
+#table::after{
+    display: block;
+    content: "";
+    clear:both;        
+}
+#table{
+    position: relative;
+    display: inline;
+}
+
+
+#table_t{
+    position: relative;
+
+    width:1200px;
+    left:200px;
+    top:-260px;
+    height: 200px;
+    display: inline;
+}
+
+#table_t li {
+    float: left;
+    margin-right:40px;
+    font-weight: bold;
+    text-align: center;
+    font-size:x-large;
+}
+
+#pho_t{
+    position: relative;
+    left:150px;
+
+}

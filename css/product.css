@@ -1,0 +1,273 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../font/Noto_Sans_KR/NotoSansKR-Regular.otf') format('opentype');
+  }
+
+@font-face {
+  font-family: 'Noto Sans KR_BK';
+  src: url('../font/Noto_Sans_KR/NotoSansKR-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR_B';
+    src: url('../font/Noto_Sans_KR/NotoSansKR-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR_L';
+    src: url('../font/Noto_Sans_KR/NotoSansKR-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR_M';
+    src: url('../font/Noto_Sans_KR/NotoSansKR-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR_T';
+    src: url('../font/Noto_Sans_KR/NotoSansKR-Thin.otf') format('opentype');
+}
+
+
+*{
+    font-family: 'Noto Sans KR_M','Montserrat', sans-serif;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+
+}
+
+#main h1{
+    position: relative;
+    width: 160px;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    font-family: 'Noto Sans KR_M','Montserrat', sans-serif;
+}
+
+#main #location{
+    position: absolute;
+    width: 110px;
+    top: 30px;
+    right: 0;
+}
+
+#main #location::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main #location li{
+    float: left;
+    margin-right: 5px;
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+    font-family: 'Noto Sans KR_L', 'Montserrat', sans-serif;
+}
+
+#main #location li:last-child{
+    margin-right: 0;
+}
+
+#main #location li a{
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+    font-family: 'Noto Sans KR_L', 'Montserrat', sans-serif;
+}
+
+#main #sort{
+    position: relative;
+    margin-top: 200px;
+    left: 0;
+}
+
+#main #sort::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main #sort li{
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin-right: 13.3px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+#main #sort li a{
+    float: left;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
+}
+
+#main #sort li.sort_now{
+    background-color: rgb(228, 137, 63);
+    border: 0;
+}
+
+#main #sort li.sort_now a{
+    color: white;
+}
+
+#main #sort li.sort_next:hover{
+    border: 0;
+    background-color: rgb(228, 137, 63)
+}
+
+#main #sort li.sort_next:hover a{
+    color: white;
+}
+
+/* ============================================= */
+
+#middle{
+    position: relative;
+    width: 100%;
+}
+
+#middle>p{
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+#middle>p>strong{
+    font-size: 15px;
+}
+
+#middle ul.product_list{
+    position: relative;
+    margin-bottom: 60px;
+}
+
+#middle ul.product_list::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#middle ul.product_list li{
+    float: left;
+    margin-right: 40px;
+}
+
+#middle ul.product_list li:last-child{
+    margin-right: 0;
+}
+
+#middle ul.product_list li p{
+    width: 270px;
+    height: 270px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#middle ul.product_list li img{
+    width: 270px;
+    height: 270px;
+}
+
+#middle ul.product_list li div.info{
+    position: relative;
+    width: 270px;
+    height: 100px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#middle ul.product_list li span{
+    display: block;
+}
+
+#middle ul.product_list li span.business{
+    font-family: 'Noto Sans KR_B', 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#middle ul.product_list li span.original{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 13px;
+    color: #bbb;
+    text-decoration: line-through;
+}
+
+#middle ul.product_list li span.discount{
+    font-family: 'Noto Sans KR_B', 'Montserrat', sans-serif;
+    color: rgb(255, 77, 77);
+}
+
+#middle ul.product_list li span.price{
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
+
+/* ============================================= */
+
+#middle ul.button::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#middle ul.button{
+    position: relative;
+    width: 160px;
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#middle ul.button li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+#middle ul.button li a{
+    float: left;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+#middle ul.button li.btn_now{
+    background-color: rgb(0, 0, 0);
+}
+
+#middle ul.button li.btn_now a{
+    color: white;
+}
+
+#middle ul.button li.btn_next:hover{
+    background-color: rgb(0, 0, 0)
+}
+
+#middle ul.button li.btn_next:hover a{
+    color: white;
+}
